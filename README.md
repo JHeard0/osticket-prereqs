@@ -71,6 +71,29 @@ Register a new PHP version and choose the php-cgi.exe file that can be found in 
 
 <img src="https://i.imgur.com/v1vg2WK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/iO6VfUU.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
-Extract the os-Ticket-v1.15.8 into
+Extract the os-Ticket-v1.15.8 into the inetpub\wwwroot folder
+
+<img src="https://i.imgur.com/66ur5Dy.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/n6TaAMQ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+Rename the upload folder in inetpub\wwwroot folder to "osTicket"
+
+<img src="https://i.imgur.com/v1vg2WK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/iO6VfUU.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+Enable required prerequisites for osTicket
+
+<img src="https://i.imgur.com/Sl1OEym.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0hwDHUJ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 
+Change the ost-sampleconfig.php file name to "ost-config.php"
+
+<img src="https://i.imgur.com/X2hvpMX.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/tFEhWZD.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+Give full edit access to osTicket
+<img src="https://i.imgur.com/UIy6Kgu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Set up osTicket basic installation 
+Download HeidiSQL and create a new session named "osTicket"
+
+OsTicket is now fully installed!
+![Screenshot 2025-05-06 144227](https://github.com/user-attachments/assets/ca5e5450-fda2-4347-9b02-d2003b4d119b)
