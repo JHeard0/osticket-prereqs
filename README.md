@@ -104,3 +104,5 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     
 <h2>OsTicket is now fully installed and running!<h2>
 <img src="https://i.imgur.com/6u3JRYP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+osTicket: Post-Installation Configuration (https://github.com/JHeard0/post-install-config)
