@@ -36,9 +36,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Download and unzip os-Ticket installation files<h2>
 
-![Download and Unzip osTicket](https://raw.githubusercontent.com/JHeard0/osticket-prereqs/refs/heads/main/Download%20and%20Unzip%20os-Ticket.png)
-
-
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/main/images/Download%20and%20Unzip%20os-Ticket.png" alt="Download and Unzip osTicket">
 
 
 <h2>Before proceeding with any downloads, enable CGI in IIS <h2> 
