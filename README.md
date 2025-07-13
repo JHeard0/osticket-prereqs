@@ -36,73 +36,88 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Download and unzip os-Ticket installation files<h2>
 
-<img src="https://i.imgur.com/NYIKImI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![Download and Unzip osTicket](https://raw.githubusercontent.com/JHeard0/osticket-prereqs/refs/heads/main/Download%20and%20Unzip%20os-Ticket.png)
+
 
 
 
 <h2>Before proceeding with any downloads, enable CGI in IIS <h2> 
 
-<img src="https://i.imgur.com/Zk0SPiY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![Enable CGI in IIS](https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Enable%20CGI%20in%20IIS.png)
 
-<h2>Return to the os-Ticket installation files folder, then install PHP Manager and the rewrite module<h2>
+
+<h2>Install PHP Manager and the rewrite module<h2>
   
-<img src="https://i.imgur.com/Kxg1xX4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/YjEUrye.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/PHP%20Manager%20install.png" alt="PHP Manager install">
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Rewrite%20module.png" alt="Rewrite module">
+
+
 
 <h2>Create a directory for PHP<h2>
 
 
-<img src="https://i.imgur.com/jnLjArY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/PHP%20Directory.png" alt="PHP Directory">
+
 <h2>Extract the PHP folder into the created PHP directory<h2>
 
 
-<img src="https://i.imgur.com/PsUpivl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Extract%20PHP.png" alt="Extract PHP">
+
 <h2>Install VC_redist.86.exe and MySQL<h2>
 
 
-<img src="https://i.imgur.com/KJ3E86D.png" height="40%" width="40%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/7NmsrYb.png" height="40%" width="40%" alt="Disk Sanitization Steps"/> 
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/VC%20Redist.png" alt="VC Redist">
+
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/My%20SQL.png" alt="MySQL">
+
 <h2>Configure MySQL<h2>
 
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Configure%20MYSQL.png" alt="Configure MYSQL">
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Configure%20MYSQL%202.png" alt="Configure MYSQL 2">
 
-<img src="https://i.imgur.com//rDWcjZm.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/v40USMN.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <h2>Register a new PHP version and choose the php-cgi.exe file<h2>
 
-<img src="https://i.imgur.com/H2PMSga.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/04NvY46.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Register%20PHP%201.png" alt="Register PHP 1">
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Register%20PHP%202.png" alt="Register PHP 2">
 
 <h2>Extract the os-Ticket-v1.15.8 into the inetpub\wwwroot folder<h2>
 
-<img src="https://i.imgur.com/v1vg2WK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/iO6VfUU.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Extract%20os-Ticket%20file%201.png" alt="Extract os-Ticket file 1">
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Extract%20os-Ticket%20file%202.png" alt="Extract os-Ticket file 2">
+
 <h2>Rename the upload folder in inetpub\wwwroot folder to "osTicket"<h2>
 
-
-<img src="https://i.imgur.com/66ur5Dy.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/n6TaAMQ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Rename%20Upload%201.png" alt="Rename Upload 1">
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Rename%20Upload%202.png" alt="Rename Upload 2">
 
 <h2>Change the ost-sampleconfig.php file name to "ost-config.php"<h2>
 
 
-<img src="https://i.imgur.com/X2hvpMX.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/tFEhWZD.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-
-
-
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/ost-sample%20config%20change%201.png" alt="ost-sample config change 1">
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/ost-sample%20config%20c
 
 <h2>Enable required prerequisites for osTicket<h2>
-<img src="https://i.imgur.com/Sl1OEym.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/0hwDHUJ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-
-
-
+  
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Enable%20Prereq%201.png" alt="Enable Prereq 1">
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Enable%20Prereq%202.png" alt="Enable Prereq 2">
 
 <h2>Give full edit access to osTicket<h2>
-<img src="https://i.imgur.com/UIy6Kgu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+<img src="http://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Full%20edit%20Access.png" alt="Full edit Access">
+
 
 <h2>Set up osTicket basic installation<h2> 
-<img src="https://i.imgur.com/FR4xrsG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Set%20up%20Basic%20Installation.png" alt="Set up Basic Installation">
 
   <h2>Download HeidiSQL and create a new session named "osTicket"<h2>
-<img src="https://i.imgur.com/pDG3cTA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/z1zzcKO.png" height="40%" width="40%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/QAiiz18.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Heidi%20SQL%201.png" alt="Heidi SQL 1">
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/Heidi%20SQL%202.png" alt="Heidi SQL 2">
+
     
 <h2>OsTicket is now fully installed and running!<h2>
-<img src="https://i.imgur.com/6u3JRYP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/osTicket%20Prereq%20Finished.png" alt="osTicket Prereq Finished">
 
 osTicket: Post-Installation Configuration (https://github.com/JHeard0/post-install-config)
