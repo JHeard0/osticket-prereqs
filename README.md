@@ -93,9 +93,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Change the ost-sampleconfig.php file name to "ost-config.php"<h2>
 
-
 <img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/ost-sample%20config%20change%201.png" alt="ost-sample config change 1">
-<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/ost-sample%20config%20c
+<img src="https://raw.githubusercontent.com/JHeard0/osticket-prereqs/93c214a3ec0b582b8994b6631ebb976015ce573b/ost-sample%20config%20change%202.png" alt="ost-sample config change 2">
 
 <h2>Enable required prerequisites for osTicket<h2>
   
